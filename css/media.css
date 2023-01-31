@@ -1,0 +1,74 @@
+/*small phonesss*/
+@media (max-width:700px){
+    nav{
+    display: none;
+    }
+    .page{
+    width: 100%;
+    }  
+    .section--img__img{
+        width: 98%;
+    }   
+    .section--img2__img{
+        width: 99%;
+    }
+    .charge--tables div{
+        width: 97%;
+        margin-bottom: 10px;
+    }
+    .footer--content > div{
+        width:99% ; 
+    }
+    .contact__ways div{
+        width: 100%;
+    }
+    .toggle_button{
+        display: block;
+    }
+    header{
+        padding-top: 50px;
+    }
+    .photo--top img{
+        display: block;
+    }
+}
+/*tablets and ipads*/
+@media (min-width:700px ) and (max-width:1100px){
+    nav{
+        display: none;
+    }
+    .page{
+        width: 100%;
+    }  
+    .section--img__img{
+        width: calc( 98% / 2 );
+    }   
+    .charge--tables div{
+        width: calc(97% /2);
+        margin-bottom: 10px;
+    }
+    .third__table {
+        margin: auto;
+    }
+    .footer--content > div{
+        width: calc(99% /2);
+    }
+    .contact__ways div{
+        width: calc(100% /2);
+    }
+    .contact .call{
+        margin: auto;
+    }
+    .tags{
+        margin: auto;
+    }
+    .toggle_button{
+        display: block;
+    }
+    header{
+        padding-top: 50px;
+    }
+    .photo--top img{
+        display: block;
+    }
+}
